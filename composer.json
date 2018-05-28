@@ -1,0 +1,15 @@
+{
+    "name": "root/portmapping",
+    "description": "Port mapping",
+    "type": "project",
+    "authors": [
+        {
+            "name": "zGiuly",
+            "email": "giuliapvpgirls@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+    "php": ">=5.6"
+    }
+}
