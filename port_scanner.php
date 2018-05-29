@@ -32,7 +32,7 @@ if(isset($_GET['min_range']) and isset($_GET['max_range']) and isset($_GET['ip']
             $start = @fsockopen($ip_scan, $min_range, $errno, $errstr, 2);
             if(is_resource($start)){
                 $p = getservbyport($min_range, 'tcp');
-                file_put_contents("open0/list", "$ip_scan.PHP_EOL.$min_range.PHP_EOL.$p.",FILE_APPEND);
+                file_put_contents("open0/list", $ip_scan." ".$min_range." Is open for protocol"." ".$p,FILE_APPEND);
             }else{
                 file_put_contents("closed0/list", $ip_scan." ".$min_range." Is closed"."\n",FILE_APPEND);
             }
