@@ -1,6 +1,7 @@
 ## PORT SCANNER PHP
 
 *Il port scanner php richiede una versione => di php5.6*
+*Richiede apache*
 
 ## FUNZIONAMENTO
 
