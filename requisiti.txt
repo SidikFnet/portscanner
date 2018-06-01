@@ -1,0 +1,7 @@
+REQUISITI:
+php => 5.6
+apache2 && nginx (CONSIGLIATO APACHE2)
+
+INSTALLER:
+Debian 7 or 8 file.zgiuly.info/
+Ubuntu 15.04 > Ubuntu 17.04 file.zgiuly.info/
