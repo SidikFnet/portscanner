@@ -3,5 +3,10 @@ php => 5.6
 apache2 && nginx (CONSIGLIATO APACHE2)
 
 INSTALLER:
-Debian 7 or 8 file.zgiuly.info/
-Ubuntu 15.04 > Ubuntu 17.04 file.zgiuly.info/
+Debian 7 or 8 http://file.zgiuly.info/dep%20installer%20debian.sh
+Ubuntu 15.04 > Ubuntu 17.04 http://file.zgiuly.info/dep%20installer%20ubuntu.sh
+
+COME SCARICARLO:
+wget LINK
+
+ESEMPIO: wget http://file.zgiuly.info/dep%20installer%20debian.sh
